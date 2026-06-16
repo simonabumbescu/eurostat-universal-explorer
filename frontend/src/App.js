@@ -428,6 +428,7 @@ export default function App() {
   },[selected]);
   useEffect(()=>{
     if(selected){loadData(selected,selectedCountries);setAi("");}
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   },[selectedCountries]);
 
   const handleSelectChange=e=>{
