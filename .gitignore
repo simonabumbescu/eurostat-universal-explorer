@@ -1,0 +1,28 @@
+# ===== Python / Backend =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# ===== Node / Frontend =====
+node_modules/
+/frontend/build/
+.npm/
+
+# ===== Secrete (NU se urca NICIODATA pe GitHub) =====
+.env
+.env.local
+.env.*.local
+*.key
+backend/.env
+frontend/.env.local
+
+# ===== Diverse =====
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
